@@ -133,3 +133,16 @@ function keyPressed() {
     }
   }
 }
+
+const job = class {
+  constructor(name, salary) {
+    this.name = name;
+    this.salary = salary;
+  }
+
+  pay(hours) {
+    return salary * hours;
+  }
+};
+
+const USG_AV = new job("USG AV Technician", 16.5);
